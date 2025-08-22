@@ -1,3 +1,4 @@
+import Divider from "./components/Divider";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -5,9 +6,9 @@ export default function Home() {
     <div>
       <main>
         <div className={styles.container}>
-          <div className={styles.divider}></div>
+          <Divider/>
           <img className={styles.profile} src="https://picsum.photos/200" width="200" />
-          <div className={styles.divider}></div>
+          <Divider/>
 
           <h1>About me</h1>
           
