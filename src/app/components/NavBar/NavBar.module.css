@@ -1,3 +1,15 @@
 .NavBar {
-    
+    text-align: left;
+    justify-items: auto;
+    display: flex;
+    align-items: center;
+}
+
+.Button {
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.Divider {
+    font-weight: bold;
 }
