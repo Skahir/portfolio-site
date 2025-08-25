@@ -1,15 +1,17 @@
-.NavBar {
-    text-align: left;
-    justify-items: auto;
-    display: flex;
-    align-items: center;
+.nav_bar {
+    text-align: center;
+    align-content: center;
+    justify-content: center;
 }
 
-.Button {
+.button {
+    display: inline-block;
     padding: 1rem;
     font-weight: bold;
 }
 
-.Divider {
+.divider {
+    display: inline-block;
+    vertical-align: middle;
     font-weight: bold;
 }

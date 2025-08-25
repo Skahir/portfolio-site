@@ -12,7 +12,7 @@ export default function Home() {
           
           <Divider/>
 
-          <h1>About me</h1>
+          <h1 className={styles.home_title}>About me</h1>
           
           <p>
             Hi I'm Nando. A developer who loves solving problems through clean, efficient code. Most of my work centers on building robust backends and APIs, 
