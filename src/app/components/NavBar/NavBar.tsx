@@ -3,21 +3,22 @@
 import Link from "next/link";
 import styles from "./NavBar.module.css";
 import { usePathname } from "next/navigation";
+import NavButton from "../NavButton/NavButton";
 
 export default function NavBar() {
     const pathname = usePathname();
 
     return (
         <div className={styles.nav_bar}>
-            <Link href='/#' className={`${styles.link} ${pathname === '/' ? styles.current : ''}`}>Home</Link>
+            <NavButton name='Home' path="/" />
 
             <h1 className={styles.divider}>/</h1>
 
-            <Link href='/projects' className={`${styles.link} ${pathname === '/projects' ? styles.current : ''}`}>Projects</Link>
-
+            <NavButton name="Projects" path="/projects" />
+            
             <h1 className={styles.divider}>/</h1>
 
-            <Link href='/blog' className={`${styles.link} ${pathname === '/blog' ? styles.current : ''}`}>Blog</Link>
+            <NavButton name="Blog" path="/blog" />
         </div>
     );
 }
