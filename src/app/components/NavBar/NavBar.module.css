@@ -12,7 +12,7 @@
 }
 
 .current {
-    color: blue;
+    text-decoration: underline;
 }
 
 .link:hover {
