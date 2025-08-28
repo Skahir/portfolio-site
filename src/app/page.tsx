@@ -5,9 +5,7 @@ export default function Home() {
   return (
     <div>
       <main>
-        <div className={styles.container}>
-          <Divider/>
-          
+        <div className={styles.container}>          
           <img className={styles.profile} src="https://picsum.photos/200" width="200" />
           
           <Divider/>
