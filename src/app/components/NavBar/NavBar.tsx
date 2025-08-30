@@ -14,11 +14,11 @@ export default function NavBar() {
 
             <h1 className={styles.divider}>/</h1>
 
-            <NavButton name="Projects" path="/projects" />
+            <NavButton name="Projects" path="/pages/projects" />
             
             <h1 className={styles.divider}>/</h1>
 
-            <NavButton name="Blog" path="/blog" />
+            <NavButton name="Blog" path="/pages/blog" />
         </div>
     );
 }
